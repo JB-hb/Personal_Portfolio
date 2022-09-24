@@ -89,6 +89,26 @@ p{
     height: 90vh;
 }
 
-.Container h1{
+.Container .title{
     font-size: 78px;
+}
+
+.title{
+    color: #00ccccea;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: calc(-94px - 0.67em - 0.67em);
+}
+
+.skill-logo{
+    width: calc((100vw / 4) - 100px);
 }
